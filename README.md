@@ -10,9 +10,9 @@ This tool is meant to offer insights into heart health, and to assist medical ad
 - `Heart_Diagnosis_Assistant_FrontEnd/`
   - **`HDA.py`**: Streamlit script providing a user interface for interacting with the heart disease prediction result.
 
-- `AIserver/`
-  - **`Backend.py`**: Flask API server handling predictions. It processes data received from the Streamlit interface and returns prediction results.
-  - **`Test_Accuracy_84.52%.keras`**: Trained Keras model file used for making predictions.
+- `AI_server/`
+  - **`AI_server.py`**: Flask API server handling predictions. It processes data received from the Streamlit interface and returns prediction results.
+  - **`Test_Accuracy_84.91%.keras`**: Trained Keras model file used for making predictions.
   - **`scaler.pkl`**: Scaler file for standardizing input features before making predictions.
 
 ## Installation
