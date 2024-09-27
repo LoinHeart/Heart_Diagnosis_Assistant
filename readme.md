@@ -98,7 +98,7 @@ Response: JSON object containing the predicted class and a message indicating th
       {
         "predicted_class":'No Heart disease.',
         'confidence': 47.2%
-        "message": "You are likely to have heart disease."
+        "message": "You are unlikely to have heart disease."
 
       }
 
