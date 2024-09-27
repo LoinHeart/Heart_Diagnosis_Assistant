@@ -5,14 +5,10 @@ It analyzes your input data (such as age, cholesterol levels, and more) to provi
 
 This tool is meant to offer insights into heart health, and to assist medical advice.
 
-
-
-This project implements a heart disease diagnostic chatbot using a deep learning model built with Keras, Flask for the backend API, and Streamlit for the front-end interface. The goal is to predict the likelihood of heart disease based on user-provided input.
-
 ## Project Structure
 
-- `Chatbot/`
-  - **`HDDC.py`**: Streamlit script providing a user interface for interacting with the heart disease prediction model.
+- `Heart_Diagnosis_Assistant_FrontEnd/`
+  - **`HDA.py`**: Streamlit script providing a user interface for interacting with the heart disease prediction result.
 
 - `AIserver/`
   - **`Backend.py`**: Flask API server handling predictions. It processes data received from the Streamlit interface and returns prediction results.
