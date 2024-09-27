@@ -20,16 +20,16 @@ This tool is meant to offer insights into heart health, and to assist medical ad
 1. **Clone the Repository:**
 
    ```bash
-   git clone <repository_url>
-   cd 'Heart Disease Diagnostic Chatbot'
+   git clone https://github.com/LoinHeart/Heart_Diagnosis_Assistant.git
+   cd 'Heart_Diagnosis_Assistant'
 2. **Set Up a Virtual Environment:**
 
 It is recommended to use a virtual environment. You can create one using venv or conda, and then install the required packages.
 
 **Create and activate the new virtual environment windows:**
 
-         python -m venv myenv #create the virtual environment
-         myenv\Scripts\activate  #Activate the virtual environment using cmd
+         python -m venv HDA #create the virtual environment
+         HDA\Scripts\activate  #Activate the virtual environment using cmd
         
 
 
@@ -38,7 +38,7 @@ It is recommended to use a virtual environment. You can create one using venv or
 3. **Install Dependencies:**
 
 
-        pip install -r requirement.txt
+        pip install -r requirements.txt
 
 4. **Run the AI API Server:**
 
