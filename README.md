@@ -55,7 +55,7 @@ In a separate terminal, navigate to the Heart_Diagnosis_Assistant_FrontEnd direc
 
 
         cd Heart_Diagnosis_Assistant_FrontEnd
-        streamlit run HDA.py
+        python -m streamlit run HDA.py
 The Streamlit interface will be available at http://localhost:8501.
 
 **Usage**
