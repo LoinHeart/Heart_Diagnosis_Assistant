@@ -40,13 +40,13 @@ It is recommended to use a virtual environment. You can create one using venv or
 
         pip install -r requirements.txt
 
-4. **Run the AI API Server:**
+4. **Run the AI Server:**
 
-Navigate to the AI_server directory and start the Flask server.
+Navigate to the AI_server directory and start the server.
 
 
       cd AI_server
-      python Backend.py
+      python AI_server.py
       The server will start and listen for requests on http://127.0.0.1:5000.
 
 5. **Run the Streamlit Interface:**
