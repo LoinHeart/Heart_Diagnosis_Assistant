@@ -1,3 +1,4 @@
+
 # Heart_Diagnosis_Assistant
 The Heart Diagnosis Assistant: is an AI-powered application designed to help you assess your heart health.
 
@@ -95,8 +96,10 @@ Response: JSON object containing the predicted class and a message indicating th
 
 
       {
-        "predicted_class": 1,
-        "message": "You are likely to have heart disease."
+        "predicted_class":'No Heart disease.',
+        'confidence': 47.2%
+        "message": "You are unlikely to have heart disease."
+
       }
 
 **`Notes`**
@@ -138,15 +141,15 @@ Dir Tree:
       ├── AI_server/
       │   ├── __init__.py
       |   ├── Backend.py
-      │   ├── Test_Accuracy_84.52%.keras
+      │   ├── Test_Accuracy_84.91%.keras
       │   └── scaler.pkl
       │
-      ├── Chatbot/
-      │   └── HDDC.py
+      ├── Heart_Diagnosis_Assistant_FrontEnd/
+      │   └── HDA.py
       ├── final_project.ipynb  
       ├── __init__.py
       ├── heart_disease_uci.csv
-      ├── requirement.txt
+      ├── requirements.txt
       └── README.md
 
 
