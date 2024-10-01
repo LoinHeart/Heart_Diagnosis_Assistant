@@ -141,15 +141,15 @@ Dir Tree:
       ├── AI_server/
       │   ├── __init__.py
       |   ├── Backend.py
-      │   ├── Test_Accuracy_84.52%.keras
+      │   ├── Test_Accuracy_84.91%.keras
       │   └── scaler.pkl
       │
-      ├── Chatbot/
-      │   └── HDDC.py
+      ├── Heart_Diagnosis_Assistant_FrontEnd/
+      │   └── HDA.py
       ├── final_project.ipynb  
       ├── __init__.py
       ├── heart_disease_uci.csv
-      ├── requirement.txt
+      ├── requirements.txt
       └── README.md
 
 
